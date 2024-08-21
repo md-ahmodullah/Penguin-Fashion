@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <!-- Fav Icon Link -->
-    <link rel="shortcut icon" href="Icon/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Icon/shopping-cart 1.png" type="image/x-icon">
     <!-- External CSS -->
     <link rel="stylesheet" href="style/style.css">
     <!-- Tailwind CDN -->
@@ -16,11 +16,11 @@
 <body class="font-roboto">
     <header class="bg-[#FFFBF0]">
         <!-- Navbar -->
-        <nav class="max-w-7xl mx-auto py-8 flex justify-between items-center">
-            <div class="w-1/5">
+        <nav class="max-w-7xl mx-auto py-8 flex justify-center md:justify-between md:px-6">
+            <div class="w-1/2 md:w-1/5">
                 <img src="Icon/Group 33072.png" alt="">
             </div>
-            <div class="hidden md:inline-flex">
+            <div class="hidden md:flex">
                 <ul class="flex space-x-10 text-lg font-semibold opacity-80">
                     <li>Home</li>
                     <li>Product</li>
@@ -31,10 +31,10 @@
         </nav>
 
         <!-- Banner Section -->
-         <section class="max-w-7xl mx-auto py-8 px-8 space-y-4 md:px-0 md:flex justify-around items-center">
+         <section class="max-w-7xl mx-auto px-8 space-y-8 md:space-y-0 md:px-5 md:flex justify-around items-center">
             <!-- Content -->
             <div class="space-y-3">
-                <h1 class="font-bebas text-7xl"><span class="text-[#FABE4C]">Be the Penguins</span><br>
+                <h1 class="font-bebas text-6xl md:text-7xl"><span class="text-[#FABE4C]">Be the Penguins</span><br>
                     of Winter
                 </h1>
                 <p class="opacity-60 text-sm">Embrace winter in style with cozy, chic fashion <br> that keeps you warm and on-trend</p>
@@ -54,13 +54,13 @@
 
     <main>
         <!-- Women Jacket Section -->
-         <section class="max-w-7xl mx-auto my-12  px-6 lg:px-0">
+         <section class="max-w-7xl mx-auto my-20 md:my-12  px-6 md:px-5">
             <h1 class="font-bebas text-4xl pb-8">Women Jacket</h1>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div class="p-4 border-2 rounded-xl space-y-4">
-                    <div class="bg-slate-100 rounded-lg p-3 w-100">
-                        <img class="h-80" src="Image/SeekPng 1.png" alt="">
+                    <div class="bg-slate-100 rounded-lg p-3 w-100 flex justify-center">
+                        <img class="h-80 md:h-52" src="Image/SeekPng 1.png" alt="">
                     </div>
                     <div class="space-y-2">
                         <h2 class="text-lg font-bold">Yellow Coat Jacket</h2>
@@ -74,7 +74,7 @@
 
                 <div class="p-4 border-2 rounded-xl space-y-4">
                     <div class="bg-slate-100 rounded-lg p-3 flex justify-center">
-                        <img class="h-80" src="Image/PngItem_2597366 1.png" alt="">
+                        <img class="h-80 md:h-52" src="Image/PngItem_2597366 1.png" alt="">
                     </div>
                     <div class="space-y-2">
                         <h2 class="text-lg font-bold">Ladies Jacket</h2>
@@ -88,7 +88,7 @@
 
                 <div class="p-4 border-2 rounded-xl space-y-4">
                     <div class="bg-slate-100 rounded-lg p-3 flex justify-center">
-                        <img class="h-80" src="Image/image 15.png" alt="">
+                        <img class="h-80 md:h-52" src="Image/image 15.png" alt="">
                     </div>
                     <div class="space-y-2">
                         <h2 class="text-lg font-bold">Woman Leather Jacket</h2>
@@ -103,13 +103,13 @@
          </section>
 
         <!-- Man Jacket Section -->
-         <section class="max-w-7xl mx-auto my-12  px-6 lg:px-0">
+         <section class="max-w-7xl mx-auto my-12  px-6 md:px-5">
             <h1 class="font-bebas text-4xl pb-8">Man Jacket</h1>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div class="p-4 border-2 rounded-xl space-y-4">
                     <div class="bg-slate-100 rounded-lg p-3 w-100 flex justify-center">
-                        <img class="h-80" src="Image/image 11.png" alt="">
+                        <img class="h-80 md:h-52" src="Image/image 11.png" alt="">
                     </div>
                     <div class="space-y-2">
                         <h2 class="text-lg font-bold">Snowboard Jacket Mens</h2>
@@ -123,7 +123,7 @@
 
                 <div class="p-4 border-2 rounded-xl space-y-4">
                     <div class="bg-slate-100 rounded-lg p-3 flex justify-center">
-                        <img class="h-80" src="Image/vippng 1.png" alt="">
+                        <img class="h-80 md:h-52" src="Image/vippng 1.png" alt="">
                     </div>
                     <div class="space-y-2">
                         <h2 class="text-lg font-bold">Man Leather Jackets</h2>
@@ -137,7 +137,7 @@
 
                 <div class="p-4 border-2 rounded-xl space-y-4">
                     <div class="bg-slate-100 rounded-lg p-3 flex justify-center">
-                        <img class="h-80" src="Image/toppng 1.png" alt="">
+                        <img class="h-80 md:h-52" src="Image/toppng 1.png" alt="">
                     </div>
                     <div class="space-y-2">
                         <h2 class="text-lg font-bold">Man Casual Jackets</h2>
@@ -152,8 +152,54 @@
          </section>
     </main>
 
-    <footer>
+    <footer class="max-w-7xl mx-auto py-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 py-3 md:py-12 px-7 space-y-9 md:space-y-0">
+            <!-- cards -->
+            <div class="space-y-6 w-100 md:w-4/5">
+                <!-- card 1 -->
+                <div class="flex items-center space-x-4 border rounded-lg shadow-lg p-3">
+                    <!-- icon -->
+                    <div class="w-1/12">
+                        <img src="Icon/image 12.png" alt="">
+                    </div>
+                    <!-- content -->
+                    <div class="space-y-1">
+                        <h2 class="text-lg font-bold opacity-85">Find the Perfect Fit</h2>
+                        <p class="opacity-70 text-xs">Everybody is different, which is why we<br>
+                            offer styles for every body.</p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="flex items-center space-x-4 border rounded-lg shadow-lg p-3">
+                    <!-- icon -->
+                    <div class="w-1/12">
+                        <img src="Icon/image 13.png" alt="">
+                    </div>
+                    <!-- content -->
+                    <div class="space-y-1">
+                        <h2 class="text-lg font-bold opacity-85">Free Exchanges</h2>
+                        <p class="opacity-70 text-xs">One of the many reasons you can shop <br>with peace of mind.</p>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="flex items-center space-x-4 border rounded-lg shadow-lg p-3">
+                    <!-- icon -->
+                    <div class="w-1/12">
+                        <img src="Icon/image 14.png" alt="">
+                    </div>
+                    <!-- content -->
+                    <div class="space-y-1">
+                        <h2 class="text-lg font-bold opacity-85">Contact Our Seller</h2>
+                        <p class="opacity-70 text-xs">They are here to help you. That's quite <br>literally what we pay them for.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- image -->
+             <div>
+                <img src="Icon/XMLID 1.png" alt="">
+             </div>
 
+        </div>
     </footer>
 </body>
 </html>
